@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/ce81a5e5c1.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+      <div class="your-result-bg">
+        <div class="your-result-title">Your Result</div>
+        <div class="circle-result"><span>76</span>of 100</div>
+        <div class="result-text">
+          <div class="result-text-short">Great</div>
+          <div class="result-text-long">
+            You scored higher than 65% of the people who have taken these tests.
+          </div>
+        </div>
+      </div>
+      <div class="summary-bg">
+        <div class="Summary-title">Summary</div>
+        <div class="Summary-skillset">
+          <!-- Reaction -->
+          <div class="Summary-reaction">
+            <div class="Summary-reaction-wrapper">
+              <div class="Summary-reaction-icon">
+                <i class="fa-solid fa-bolt"></i>
+              </div>
+              <div class="Summary-reaction-text"><span>Reaction</span></div>
+            </div>
+            <div class="Summary-reaction-score">
+              <span>80</span><span> / 100</span>
+            </div>
+          </div>
+          <!-- Memory -->
+          <div class="Summary-memory">
+            <div class="Summary-memory-wrapper">
+              <div class="Summary-memory-icon">
+                <i class="fa-solid fa-brain"></i>
+              </div>
+              <div class="Summary-memory-text"><span>Memory</span></div>
+            </div>
+            <div class="Summary-memory-score">
+              <span>92</span><span> / 100</span>
+            </div>
+          </div>
+          <!-- Verbal -->
+          <div class="Summary-verbal">
+            <div class="Summary-verbal-wrapper">
+              <div class="Summary-verbal-icon">
+                <i class="fa-regular fa-comment-dots"></i>
+              </div>
+              <div class="Summary-verbal-text"><span>Verbal</span></div>
+            </div>
+            <div class="Summary-verbal-score">
+              <span>61</span><span> / 100</span>
+            </div>
+          </div>
+          <!-- Visual -->
+          <div class="Summary-visual">
+            <div class="Summary-visual-wrapper">
+              <div class="Summary-visual-icon">
+                <i class="fa-solid fa-eye"></i>
+              </div>
+              <div class="Summary-visual-text"><span>Visual</span></div>
+            </div>
+            <div class="Summary-visual-score">
+              <span>72</span><span> / 100</span>
+            </div>
+          </div>
+        </div>
+        <div class="Summary-button">Continue</div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Thibaut De Windt</a>.
+    </div>
+  </body>
+</html>
